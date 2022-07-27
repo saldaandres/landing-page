@@ -1,0 +1,165 @@
+body {
+    font-family: roboto;
+    display: flex;
+    flex-direction: column;
+}
+/* header section*/
+.header {
+    background-color: #1F2937;
+    padding: 20px 15% ;
+}
+
+.very-white {
+    color: #f9faf8; 
+}
+
+.not-so-white {
+    color: #e5e7eb;
+}
+
+.header .title {
+    font-size: 48px; 
+    font-weight: 800;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+.top-line {
+    font-size: 18px;
+}
+
+.top-line {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 15px
+}
+
+.secondary, .header-link {
+    font-size: 18px;
+}
+
+.header-link {
+    text-decoration: none;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    flex-grow: 0;
+}
+
+.picture {
+    width: 500px;
+    max-height: 250px;
+    flex-shrink: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+    color: white;
+}
+
+.header-content button {
+    font-size: 20px;
+    font-weight: bold;
+    padding: 5px 20px;
+    border: none;   
+    border-radius: 5px;
+    background-color: #3882f6;
+    margin-bottom: 40px;
+}
+
+/* Information section starts here*/
+.info {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:40px;
+}
+
+.info-title {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+.items {
+    display: flex;
+    gap: 40px;  
+}
+
+.item {    
+    width: 200px;
+    text-align: center;
+    color: rgb(99, 95, 95);
+}
+
+.square {
+    border: 5px #3882f6 solid ;
+    height: 200px;
+    border-radius: 20px;
+}
+
+/*here starts the quote section*/
+ 
+.quote {
+    background-color: rgb(209, 190, 190);
+    color: #1F2937;
+    padding: 80px 120px 80px 200px;
+}
+
+.quote.text {
+    display: flex;
+    flex-direction: column;
+}
+
+.quote.text p {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    padding: 0;
+    margin-bottom: 0%;
+}
+
+.quote.text h3 {
+    align-self: flex-end;
+}
+ /*Call to action section*/
+.call-container {
+    padding: 80px 15% 40px 30%;
+}
+
+.call-area {
+    padding: 20px 15%;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3882f6;
+    color: #f9faf8; 
+}
+
+.call-area>button {
+    background-color: #3882f6;
+    flex: 0 0 auto;
+    color: #f9faf8;
+    padding: 15px 40px;
+    border: 3px solid white;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+/* footer section goes here */
